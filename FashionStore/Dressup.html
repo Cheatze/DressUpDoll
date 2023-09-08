@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dressup</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    
+    
+    .container {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      position: relative;
+      /*give container a fixed size*/
+     
+    }
+    
+    /* Het poppetje */
+    #bob{
+      width: 50%;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    /*Voor elke helmet*/
+    .overlay-Helmet{
+      position: absolute;
+      top: 60px;
+      left: 270px;
+      width: 200px;
+      height: auto;
+    }
+
+    .overlay-Shoes{
+        position: absolute;
+        top: 550px;
+        left: 150px;
+    }
+
+    .overlay-Armor{
+        position: absolute;
+        top: 250px;
+        left: 270px;
+    }
+
+    /*Aangepaste overlay image voor een bepaale scherm wijde*/
+    
+
+    .verstopt{
+        display: none;
+    }
+
+     /*
+    #DiamondHelmet{
+        display: none;
+    }
+    #GoldHelmet{
+        display: none;
+    }
+    #SilverHelmet{
+        display: none;
+    }*/
+
+
+    /*css voor gold/diamond by id with only their display as unique*/
+
+    label{
+        /*margin-bottom: 50px;*/
+    }
+
+  </style>
+
+
+</head>
+<body>
+    <h1>kaas</h1>
+    <div class="container" id="Window">
+        
+      <img src="Plaatjes/Bob.png" id="bob" alt="StickfigureBob">
+
+      
+
+      <!--
+        <img src="Plaatjes/DiamondArmor.png" alt="Diamond Armor" class="overlay-armor" data-part="Armor">
+
+      <img src="Plaatjes/DiamondHelmet.png" alt="Diamond Helmet" class="overlay-image" data-part="Helmet" data-name="Diamond-helmet">
+      <img src="Plaatjes/GoldHelmet.png" alt="Gold Helmet" class="overlay-image" data-part="Helmet"  data-name="Gold-helmet">
+      <img src="Plaatjes/SilverHelmet.png" alt="Silver Helmet" class="overlay-image" data-part="Helmet"  data-name="Silver-helmet">
+      <img src="Plaatjes/BronzeHelmet.png" alt="Bronze Helmet" class="overlay-image" data-part="Helmet"  data-name="Bronze-helmet">
+
+      <img src="Plaatjes/DiamondShoes.png" alt="Diamond Shoes" class="overlay-shoes" data-part="Shoes" data-name="Diamond-shoes">
+      <img src="Plaatjes/GoldenShoes.png" alt="Golden Shoes" class="overlay-shoes" data-part="Shoes" data-name="Golden-shoes">
+      <img src="Plaatjes/SilverShoes.png" alt="Silver Shoes" class="overlay-shoes" data-part="Shoes" data-name="Silver-shoes">
+      <img src="Plaatjes/BronzeShoes.png" alt="Bronze Shoes" class="overlay-shoes" data-part="Shoes" data-name="Bronze-shoes">
+
+
+      <div class="checkbox-container">
+          <div class="checkbox-row">
+            <input type="checkbox" class="Helmet" data-slot="Helmet" id="Diamond-helmet" name="Diamond-helmet">
+            <label for="Diamond-helmet">Equip Diamond Helmet</label>
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" class="Helmet" data-slot="Helmet" id="Gold-helmet" name="Gold-helmet">
+            <label for="Gold-helmet">Equip Gold Helmet</label>
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" class="Helmet" data-slot="Helmet" id="Silver-helmet" name="Silver-helmet">
+            <label for="Silver-helmet">Equip Silver Helmet</label>
+          </div>
+          <div class="checkbox-row">
+            <input type="checkbox" class="Helmet" data-slot="Helmet" id="Bronze-helmet" name="Bronze-helmet">
+            <label for="Bronze-helmet">Equip bronze</label>
+          </div>
+        </div>
+        <div class="checkbox-container">
+            <div class="checkbox-row">
+                <input type="checkbox" data-slot="Shoes" name="Diamond-shoes">
+                <label for="Diamond-shoes">Equip Diamond Shoes</label>
+            </div>
+            <div class="checkbox-row">
+                <input type="checkbox" data-slot="Shoes" name="Golden-shoes">
+                <label for="Golden-shoes">Equip Golden Shoes</label>
+            </div>
+            <div class="checkbox-row">
+                <input type="checkbox" data-slot="Shoes" name="Silver-shoes">
+                <label for="Silver-shoes">Equip Silver Shoes</label>
+            </div>
+            <div class="checkbox-row">
+                <input type="checkbox" data-slot="Shoes" name="Bronze-shoes">
+                <label for="Bronze-shoes">Equip Bronze Shoes</label>
+            </div>
+        </div>
+        -->
+
+      <label>
+      </label>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
